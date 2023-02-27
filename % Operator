@@ -1,0 +1,18 @@
+#% operator
+name = input()
+print('My name is: %s' %name)
+
+print()
+number = int(input())
+fruit = input()
+print('The cost of %d %s is %.2f' %(number, fruit, number*5))
+
+
+
+**********OUTPUT*****************
+Tom
+My name is: Tom
+
+6
+apples
+The cost of 6 apples is 30.00
