@@ -1,0 +1,13 @@
+print('Hello, {}'.format('Tom'))
+
+print()
+name = input()
+print('Welcome {1}, your bank balance is {0:0.4f}'.format(1235.264, name))
+
+
+
+************OUTPUT**************
+Hello, Tom
+
+Sarah
+Welcome Sarah, your bank balance is 1235.2640
