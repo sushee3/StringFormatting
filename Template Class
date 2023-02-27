@@ -1,0 +1,9 @@
+from string import Template
+
+names = input()
+message = Template('$name has $n messages')
+print(message.substitute(name = names, n = 55))
+
+************OUTPUT****************
+Tom
+Tom has 55 messages
