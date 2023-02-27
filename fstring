@@ -1,0 +1,25 @@
+fname = 'J.K'
+lnam = 'Rowling'
+a = 'author'
+book = 'Harry Potter'
+
+print(f'{name1} {name2} is the {a} of the book called {book}')
+
+************OUTPUT****************
+J.K Rowling is the author of the book called Harry Potter
+
+
+
+
+
+name = input()
+year = int(input())
+branch = input()
+rollnumber = int(input())
+print(f'Hi, my name is {name:*^13}. I am in year {year} from {branch} branch and my roll number is {rollnumber}')
+************OUTPUT****************
+Tom
+4
+CSE
+16
+Hi, my name is *****Tom*****. I am in year 4 from CSE branch and my roll number is 16
